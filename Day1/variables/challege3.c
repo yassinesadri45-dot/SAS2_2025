@@ -3,11 +3,14 @@
 
 int main(){
     int km;
-    int yards;
-    yards= km*1093.61;
-    printf("entre la distance km:  ");
+    float yards;
+   
+    printf("entre la distance km:  \n");
     scanf("%d",&km);
-    printf(" la transform en yards:  ",yards);
+    
+     yards = km*1093.61;
+     
+    printf(" la transform en yards  %.2f \n",yards);
 
     return 0;
 }
